@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 9, 2026
+ *      Author: HP
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	unsigned char data = (int)0x87 + 0xFF00;								//compiler implicitly considers the size of these constants as 4 bytes (of integer data type ).this is also called as integer promotion.
+	float result = 80 /3;
+	printf("Data : %u\n result : %f\n",data , result);
+}

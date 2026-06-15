@@ -1,0 +1,19 @@
+/*
+ * math.h
+ *
+ *  Created on: Jun 9, 2026
+ *      Author: HP
+ */
+
+#ifndef MATH_H_
+#define MATH_H_
+
+// These are also called as exposed function prototypes
+
+int math_add(int A, int B);
+int math_sub(int A, int B);
+long long int math_multi(int A, int B);
+float math_div(int A, int B);
+
+
+#endif /* MATH_H_ */

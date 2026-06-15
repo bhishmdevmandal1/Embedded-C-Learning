@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void function_add_numbers(int a , int b , int c );
+
+int main()
+{
+	function_add_numbers(12,50,8);
+	function_add_numbers(-20,30,15 );
+
+	int valueA = 90, valueB = 70;
+	function_add_numbers(valueA,valueB,90);
+	return 0;
+}
+
+//This is a function definition
+void function_add_numbers(int a , int b , int c )
+{
+	int sum ;
+	sum = a+b+c;
+	printf("Sum = %d\n",sum);
+
+
+
+}

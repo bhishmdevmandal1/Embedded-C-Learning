@@ -1,0 +1,41 @@
+/*
+ * math.c
+ *
+ *  Created on: Jun 9, 2026
+ *      Author: HP
+ */
+
+int math_add(int A, int B)
+{
+	return A + B;
+}
+
+int math_sub(int A, int B)
+{
+	return A - B;
+}
+
+long long int math_multi(int A, int B)
+{
+	return (long long)A * B;
+}
+
+float math_div(int A, int B)
+{
+	return (float)A / B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

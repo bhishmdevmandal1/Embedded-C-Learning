@@ -1,0 +1,5 @@
+21:57:37 **** Clean-only build of configuration Debug for project 03_Function_Arithmetic ****
+rm -rf math.o main.d main.o math.d 03_Function_Arithmetic.exe 
+
+21:57:38 Build Finished. 0 errors, 0 warnings. (took 95ms)
+

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Add_var 01.exe,org.eclipse.launchbar.core.descriptorType.default\:02_Function_return_data.exe,org.eclipse.launchbar.core.descriptorType.default\:01_Function.exe,org.eclipse.launchbar.core.descriptorType.default\:03_Function_Arithmetic.exe,org.eclipse.launchbar.core.descriptorType.default\:04_Function_TypeCasting.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:01_Function.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:01_Function.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Add_var\ 01.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Add_var\ 01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

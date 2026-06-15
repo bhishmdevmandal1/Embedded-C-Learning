@@ -1,0 +1,42 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 9, 2026
+ *      Author: HP
+ */
+
+#include <stdio.h>
+#include "math.h"
+
+int main()
+{
+	printf("Add : %d\n",math_add(4,5));
+
+	printf("Subtraction : %d\n",math_sub(50,15));
+
+	printf("Multiply : %I64d\n",math_multi(40,3));
+
+	printf("Division : %f\n",math_div(10,3));
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
