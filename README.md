@@ -85,7 +85,7 @@ Build a strong foundation in Embedded C and low-level programming required for:
 ## Author
 **Bhishmdev Mandal**
 
-- GitHub: [Link](https://unanimesh.github.io/bhishmdevmandal1/)
+- GitHub: [Link](https://www.github.com/bhishmdevmandal1/)
 - LinkedIn: [Link](https://www.linkedin.com/in/bhishmdev726/)
 
 B.Tech –Electrical & Electronics Engineering
