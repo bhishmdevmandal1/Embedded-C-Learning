@@ -1,0 +1,18 @@
+/*
+ * pointer.c
+ *
+ *  Created on: Jun 25, 2026
+ *      Author: HP
+ */
+
+#include<stdio.h>
+
+int main(void)
+{
+	//0x00007FFF8E3C3824
+
+	//long long int someAddress = 0x00007FFF8E3C3824;			This 0x00007FFF8E3C3824 is just a number which stored in a variable.
+
+	char* address = (char*)0x00007FFF8E3C3824;					//Typecast (char*) it converts the number into address
+
+}

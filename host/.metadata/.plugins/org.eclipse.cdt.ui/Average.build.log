@@ -1,0 +1,7 @@
+03:50:08 **** Rebuild of configuration Debug for project Average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Average.exe main.o 
+
+03:50:09 Build Finished. 0 errors, 0 warnings. (took 340ms)
+

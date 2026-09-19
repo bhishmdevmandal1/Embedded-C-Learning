@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<stdint.h>
+
+uint8_t get_voter_age(void)
+{
+    uint8_t user_age = 0;
+    printf("Enter your age: ");
+   if( scanf("%d", &user_age) != 1 ){
+    printf("Invalid input.\n");
+   }
+   while (getchar() != '\n'); // Clear input buffer
+
+    return user_age;
+}
+
+int main(void)
+{
+    uint8_t age = get_voter_age();
+    (age < 18 ) ? printf("you are not eligible to vote\n") : printf("Congrats ! You are eligible to vote.\n");
+
+    return 0;
+}
+
+/*int main(void)
+{
+    uint8_t age = get_voter_age();
+    if (age < 18) {
+        printf("Sorry ! you are not eligible to vote.\n");
+    } else {
+        printf("Congrats ! You are eligible to vote.\n");
+    }
+    printf("Press enter to exit this application.\n");
+    getchar();
+    return 0;
+}
+*/

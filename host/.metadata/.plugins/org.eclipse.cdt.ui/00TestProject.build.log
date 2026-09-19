@@ -1,1 +1,7 @@
-Info: Nothing to build for 00TestProject
+19:21:04 **** Rebuild of configuration Debug for project 00TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 00TestProject.exe main.o 
+
+19:21:05 Build Finished. 0 errors, 0 warnings. (took 339ms)
+

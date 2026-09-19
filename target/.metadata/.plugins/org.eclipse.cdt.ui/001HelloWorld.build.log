@@ -1,10 +1,9 @@
-12:51:42 **** Incremental Build of configuration Debug for project 001HelloWorld ****
-make -j16 all 
-arm-none-eabi-size  001HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3420	     92	   1900	   5412	   1524	001HelloWorld.elf
-Finished building: default.size.stdout
+03:48:06 **** Clean-only build of configuration Debug for project 001HelloWorld ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32f411retx.d ./Startup/startup_stm32f411retx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 001HelloWorld.elf 001HelloWorld.list 001HelloWorld.map default.size.stdout
  
 
-12:51:42 Build Finished. 0 errors, 0 warnings. (took 138ms)
+03:48:06 Build Finished. 0 errors, 0 warnings. (took 353ms)
 

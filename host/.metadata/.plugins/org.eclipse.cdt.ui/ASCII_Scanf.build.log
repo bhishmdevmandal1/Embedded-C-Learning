@@ -1,0 +1,7 @@
+04:22:57 **** Incremental Build of configuration Debug for project ASCII_Scanf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ASCII_Scanf.exe main.o 
+
+04:22:58 Build Finished. 0 errors, 0 warnings. (took 345ms)
+
