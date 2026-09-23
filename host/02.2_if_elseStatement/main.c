@@ -42,8 +42,6 @@ int main(void)
 	}
 }
 
-
-
 void wait_for_user_input(void)
 {
 	printf("Press enter key to exit this application\n");

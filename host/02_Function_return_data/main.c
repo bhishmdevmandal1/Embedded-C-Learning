@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-
 int function_add_numbers(int a , int b , int c );
 
 int main()

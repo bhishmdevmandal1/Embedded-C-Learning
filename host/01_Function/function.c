@@ -1,13 +1,12 @@
+
 #include <stdio.h>
-
 void function_add_numbers(int,int,int);
-
 
 int main()
 {
 	//void function_add_numbers(int a , int b , int c ); //also we can use here the prototype
 
-	function_add_numbers(12,50,8);                    //The first warning is because , since the prototype of function is not found before calling it, 'Compiler assumed the prototype'.
+	function_add_numbers(12,50,8);                      //The first warning is because , since the prototype of function is not found before calling it, 'Compiler assumed the prototype'.
 	function_add_numbers(-20,30,15 );
 
 	int valueA = 90, valueB = 70;
@@ -18,7 +17,7 @@ int main()
 
 //This is a function definition
 void function_add_numbers(int a , int b , int c )    //here the compiler comes to know about the exact prototype of the function.
-{													//So the 2nd warning.It's saying 'What i assumed conflicts with what you have written'.
+{												    //So the 2nd warning.It's saying 'What i assumed conflicts with what you have written'.
 	int sum ;
 	sum = a+b+c;
 	printf("Sum = %d\n",sum);

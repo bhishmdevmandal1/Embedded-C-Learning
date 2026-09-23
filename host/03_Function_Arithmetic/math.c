@@ -1,9 +1,4 @@
-/*
- * math.c
- *
- *  Created on: Jun 9, 2026
- *      Author: HP
- */
+
 
 int math_add(int A, int B)
 {

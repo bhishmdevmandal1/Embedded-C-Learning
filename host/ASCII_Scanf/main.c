@@ -13,6 +13,7 @@ int main(void)
 
 
 	printf("\nPress enter key to exit the application");	//For command prompt (.exe file)
+
 	while(getchar() != '\n') 	//To make your application, to wait until the user presses a key from the keyboard. (for hanging the program)
 	{
 			//just read the input buffer and do nothing

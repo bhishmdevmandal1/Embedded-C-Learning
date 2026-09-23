@@ -8,7 +8,7 @@
  7. Print the value of the variable defined in step 1.
  */
 
- #include<stdio.h>
+#include<stdio.h>
 
 int main(void)
 {

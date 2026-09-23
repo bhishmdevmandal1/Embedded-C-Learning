@@ -1,0 +1,7 @@
+16:47:49 **** Rebuild of configuration Debug for project bitWise2Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o bitWise2Numbers.exe main.o 
+
+16:47:49 Build Finished. 0 errors, 0 warnings. (took 346ms)
+

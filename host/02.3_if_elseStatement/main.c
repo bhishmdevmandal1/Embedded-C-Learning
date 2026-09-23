@@ -64,7 +64,6 @@ int main(void)
 void wait_for_user_input(void)
 {
 	printf("Press enter key to exit this application\n");
-
 	while(getchar() != '\n')
 	{
 	  //just read the input buffer & do nothing(for command prompt)

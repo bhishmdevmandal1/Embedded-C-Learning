@@ -1,9 +1,4 @@
-/*
- * pointer.c
- *
- *  Created on: Jun 25, 2026
- *      Author: HP
- */
+
 
 #include<stdio.h>
 
@@ -15,4 +10,5 @@ int main(void)
 
 	char* address = (char*)0x00007FFF8E3C3824;					//Typecast (char*) it converts the number into address
 
+	printf("The pointer address is: %p\n", (void*)address);
 }

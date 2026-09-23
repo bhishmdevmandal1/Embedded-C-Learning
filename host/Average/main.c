@@ -18,13 +18,9 @@ int main(void)
 	fflush(stdout);
 	scanf("%lf",&number3); */
 
-
-
 	printf("Enter 3 Numbers: \n");
 	fflush(stdout);
 	scanf("%lf %lf %lf",&number1,&number2,&number3);
-
-
 
 	average = (number1+number2+number3) / 3;
 	printf("\nAverage = %lf\n",average);

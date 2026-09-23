@@ -1,9 +1,3 @@
-/*
- * main.c
- *
- *  Created on: Jun 9, 2026
- *      Author: HP
- */
 
 #include <stdio.h>
 
@@ -18,8 +12,6 @@ So, compiler did implicit casting twice here 1.It promoted the date size of RHS 
 
 
 	float result = (float)80 /3;		//(float)80 -> (explicit) Promoted to float, 3 ->(implicit) promoted to float . So, the division is now float divided float which yields float.
-
-
 
 	printf(" Data   : %u\n result : %f\n",data,result);
 }

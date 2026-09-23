@@ -1,10 +1,8 @@
 //Read operation on pointer
 
-
 #include<stdio.h>
 
 long long int g_data = 0xFFFEABCD11112345;
-
 
 int main(void)
 {
@@ -19,8 +17,6 @@ int main(void)
 
 	long long* pAddress4 = (long long*)&g_data;
 	printf("4 Value at address %p is :%I64x\n",pAddress4,*pAddress4); 	// yields 8 byte of data
-
-
 
 }
 

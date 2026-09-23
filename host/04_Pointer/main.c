@@ -1,11 +1,8 @@
 //Effect of using diferent pointer data types on pointer operations
 
-
-
 #include<stdio.h>
 
 long long int g_data = 0xFFFEABCD12112345;
-
 
 int main(void)
 {

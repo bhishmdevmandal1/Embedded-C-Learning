@@ -1,9 +1,3 @@
-/*
- * main.c
- *
- *  Created on: Jun 18, 2026
- *      Author: HP
- */
 
 #include <stdio.h>
 
@@ -22,8 +16,6 @@ int main()
 	float chargeElectron1 = -1.60217662e-19;
 	printf("ChargeF = %0.8f\n",chargeElectron1);	 //output is Zero because its a very small number
 	printf("ChargeF = %0.8e\n",chargeElectron1);
-
-
 
 
 	double chargeElectron2 = -1.60217662e-19;

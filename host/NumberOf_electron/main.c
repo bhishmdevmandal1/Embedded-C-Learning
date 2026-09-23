@@ -19,6 +19,7 @@ int main(void)
 
 
 	printf("Press Enter to exit the application\n");
+
 	while(getchar() != '\n')
 	{
 

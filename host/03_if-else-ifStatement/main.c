@@ -4,9 +4,6 @@
 
 void wait_for_user_input(void);
 
-
-
-
 int main()
 {
 	uint64_t income;
