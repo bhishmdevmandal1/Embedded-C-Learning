@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdint.h>
-
 void wait_for_user_input(void);
 
 int main(void)
