@@ -1,7 +1,5 @@
 //Read operation on pointer
-
 #include<stdio.h>
-
 long long int g_data = 0xFFFEABCD11112345;
 
 int main(void)
