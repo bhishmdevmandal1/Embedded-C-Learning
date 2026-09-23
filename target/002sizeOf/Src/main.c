@@ -21,7 +21,6 @@
 
 int main(void)
 {
-
 	printf("Size of char data type is %u\n",sizeof(char));
 	printf("Size of short data type is %u\n",sizeof(short));
 	printf("Size of int data type is %u\n",sizeof(int));
