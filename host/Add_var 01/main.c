@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+
 
 int main()
 {
@@ -12,9 +12,7 @@ int main()
     char a7 = ')'; */
 
     unsigned long int addressOfa1 = (unsigned long int)&a1;
-    printf("Address of variable a1 = %ld\n",addresOfa1);
-
-
+    printf("Address of variable a1 = %ld\n",addressOfa1);
 
    /* printf("Address of variable a2 = %ld\n",&a2);
     printf("Address of variable a3 = %p\n",&a3);
