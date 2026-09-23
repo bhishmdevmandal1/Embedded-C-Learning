@@ -20,6 +20,4 @@ int main(void)
 	pAddress1 = pAddress1 + 1;
 	printf("2 int Value of pAddress1 %p is : %x\n",pAddress1,*pAddress1);
 
-
-
 }
