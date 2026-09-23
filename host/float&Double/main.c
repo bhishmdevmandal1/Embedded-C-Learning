@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 
-
 int main()
 {
 	float number1 = 45.78976834578;
@@ -23,7 +22,6 @@ int main()
 	printf("ChargeD = %0.10lf\n",chargeElectron2);	 // this is very small no. thats why output is 0
 	printf("ChargeD = %0.30lf\n",chargeElectron2);	 // we used 30 decimal places so the number is shown
 	printf("ChargeD = %0.10le\n",chargeElectron2);
-
 
 
 	return 0;
