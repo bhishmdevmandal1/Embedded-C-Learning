@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main(void)
@@ -10,7 +9,6 @@ int main(void)
 	scanf("%c %c %c %c %c %c",&ascii1, &ascii2, &ascii3, &ascii4, &ascii5, &ascii6);
 
 	printf("\nASCII codes : %d,%d,%d,%d,%d,%d",ascii1, ascii2, ascii3, ascii4, ascii5, ascii6);
-
 
 	printf("\nPress enter key to exit the application");	//For command prompt (.exe file)
 
