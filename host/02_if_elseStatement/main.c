@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<stdint.h>
 
@@ -23,8 +22,6 @@ int main(void)
 		}
 	}
 
-
-
 	printf("Press enter key to exit this application\n");
 
 		while(getchar() != '\n')
@@ -34,11 +31,3 @@ int main(void)
 		getchar();
 
 }
-
-
-
-
-
-
-
-
