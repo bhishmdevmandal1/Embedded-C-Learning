@@ -5,8 +5,9 @@
  4. Perform read operation on the pointer variable to fetch 1 byte of data from the pointer.
  5. Print the data obtained from the read operation on the pointer
  6. Perform write operation on the pointer to store the value 65.
- 7. Print the value of the variable defined in step 1.
+ 7. Print the value of the variable defined in step 1
  */
+
 
 #include<stdio.h>
 
