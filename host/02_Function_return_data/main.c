@@ -1,12 +1,10 @@
-
 #include <stdio.h>
 int function_add_numbers(int a , int b , int c );
 
+
 int main()
 {
-
 	int returnValue;
-
 	returnValue = function_add_numbers(10,25,30);
 
 	printf("Sum Return value = %d\n",returnValue);
