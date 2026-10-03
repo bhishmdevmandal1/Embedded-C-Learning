@@ -1,7 +1,0 @@
-# STM32 Build Artifacts
-**/Debug/
-**/*.o
-**/*.d
-**/*.su
-**/*.cyclo
-.metadata/
