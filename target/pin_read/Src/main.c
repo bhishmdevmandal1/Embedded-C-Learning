@@ -3,11 +3,11 @@
 
 int main(void)
 {
-   uint32_t *pClockCtrlreg = (uint32_t*)0x40023830;
-   uint32_t *pPortAModereg = (uint32_t*)0x40020000;
-   uint32_t *pPortAOutreg = (uint32_t*)0x40020014;
-   uint32_t *pPortAInreg = (uint32_t*)0x40020010;
-   uint32_t *pPortAPuPdreg = (uint32_t*)0x4002000C;
+   uint32_t volatile *pClockCtrlreg = (uint32_t*)0x40023830;
+   uint32_t volatile *pPortAModereg = (uint32_t*)0x40020000;
+   uint32_t volatile *pPortAOutreg = (uint32_t*)0x40020014;
+   uint32_t volatile *pPortAInreg = (uint32_t*)0x40020010;
+   uint32_t volatile *pPortAPuPdreg = (uint32_t*)0x4002000C;
 
    //1. enable the clock for GPIOA peripheral in the AHB1ENR (SET 0th bit position)
    *pClockCtrlreg |= ( 1 << 0 );
